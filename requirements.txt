@@ -1,0 +1,28 @@
+# Evo-Memory Requirements
+
+# Core dependencies
+numpy>=1.21.0
+pyyaml>=6.0
+tqdm>=4.64.0
+
+# LLM backends
+openai>=1.0.0
+anthropic>=0.18.0
+google-generativeai>=0.3.0
+
+# Embeddings and retrieval
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.0  # Use faiss-gpu for GPU support
+
+# Datasets
+datasets>=2.14.0
+huggingface-hub>=0.17.0
+
+# Evaluation
+scikit-learn>=1.3.0
+
+# Optional: for development
+pytest>=7.0.0
+black>=23.0.0
+isort>=5.12.0
+mypy>=1.5.0
