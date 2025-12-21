@@ -1,0 +1,22 @@
+[
+  {"goal": "go to the red ball", "level": "GoTo"},
+  {"goal": "pick up the blue key", "level": "Pickup"},
+  {"goal": "open the yellow door", "level": "Open"},
+  {"goal": "put the green box next to the red ball", "level": "PutNext"},
+  {"goal": "go to the blue key then pick it up", "level": "Seq"},
+  {"goal": "pick up the red ball or the blue key", "level": "Or"},
+  {"goal": "go to the green box and open the yellow door", "level": "And"},
+  {"goal": "pick up a ball", "level": "GoToObj"},
+  {"goal": "go to an open door", "level": "GoToDoor"},
+  {"goal": "pick up the box after you open the door", "level": "SeqS"},
+  {"goal": "go to the purple key", "level": "GoTo"},
+  {"goal": "pick up the grey ball", "level": "Pickup"},
+  {"goal": "open the blue door", "level": "Open"},
+  {"goal": "put the yellow key next to the green ball", "level": "PutNext"},
+  {"goal": "go to the red box then pick it up", "level": "Seq"},
+  {"goal": "pick up the green key or the purple ball", "level": "Or"},
+  {"goal": "go to the blue ball and open the red door", "level": "And"},
+  {"goal": "pick up a key", "level": "GoToObj"},
+  {"goal": "go to a closed door", "level": "GoToDoor"},
+  {"goal": "pick up the key after you open the door", "level": "SeqS"}
+]

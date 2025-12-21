@@ -1,0 +1,137 @@
+[
+  {
+    "question": "What's the weather like in San Francisco today?",
+    "functions": [
+      {"name": "get_weather", "description": "Get current weather for a location", "parameters": {"location": "string"}},
+      {"name": "search_web", "description": "Search the web for information", "parameters": {"query": "string"}}
+    ],
+    "answer": "{\"name\": \"get_weather\", \"arguments\": {\"location\": \"San Francisco\"}}",
+    "category": "weather"
+  },
+  {
+    "question": "Send an email to john@example.com with subject 'Meeting Tomorrow'",
+    "functions": [
+      {"name": "send_email", "description": "Send an email", "parameters": {"to": "string", "subject": "string", "body": "string"}},
+      {"name": "create_calendar_event", "description": "Create a calendar event", "parameters": {"title": "string", "time": "string"}}
+    ],
+    "answer": "{\"name\": \"send_email\", \"arguments\": {\"to\": \"john@example.com\", \"subject\": \"Meeting Tomorrow\"}}",
+    "category": "email"
+  },
+  {
+    "question": "Create a reminder to call mom at 5pm",
+    "functions": [
+      {"name": "set_reminder", "description": "Set a reminder", "parameters": {"message": "string", "time": "string"}},
+      {"name": "add_todo", "description": "Add a todo item", "parameters": {"task": "string"}}
+    ],
+    "answer": "{\"name\": \"set_reminder\", \"arguments\": {\"message\": \"call mom\", \"time\": \"5pm\"}}",
+    "category": "reminder"
+  },
+  {
+    "question": "Search for Italian restaurants near me",
+    "functions": [
+      {"name": "search_restaurants", "description": "Search for restaurants", "parameters": {"cuisine": "string", "location": "string"}},
+      {"name": "get_directions", "description": "Get directions to a place", "parameters": {"destination": "string"}}
+    ],
+    "answer": "{\"name\": \"search_restaurants\", \"arguments\": {\"cuisine\": \"Italian\", \"location\": \"near me\"}}",
+    "category": "search"
+  },
+  {
+    "question": "Play some jazz music",
+    "functions": [
+      {"name": "play_music", "description": "Play music", "parameters": {"genre": "string", "artist": "string"}},
+      {"name": "set_volume", "description": "Set audio volume", "parameters": {"level": "integer"}}
+    ],
+    "answer": "{\"name\": \"play_music\", \"arguments\": {\"genre\": \"jazz\"}}",
+    "category": "music"
+  },
+  {
+    "question": "Book a flight from New York to London for next Monday",
+    "functions": [
+      {"name": "search_flights", "description": "Search for available flights", "parameters": {"origin": "string", "destination": "string", "date": "string"}},
+      {"name": "book_hotel", "description": "Book a hotel room", "parameters": {"city": "string", "checkin": "string"}}
+    ],
+    "answer": "{\"name\": \"search_flights\", \"arguments\": {\"origin\": \"New York\", \"destination\": \"London\", \"date\": \"next Monday\"}}",
+    "category": "travel"
+  },
+  {
+    "question": "Convert 100 USD to EUR",
+    "functions": [
+      {"name": "convert_currency", "description": "Convert between currencies", "parameters": {"amount": "number", "from": "string", "to": "string"}},
+      {"name": "get_exchange_rate", "description": "Get current exchange rate", "parameters": {"currency_pair": "string"}}
+    ],
+    "answer": "{\"name\": \"convert_currency\", \"arguments\": {\"amount\": 100, \"from\": \"USD\", \"to\": \"EUR\"}}",
+    "category": "finance"
+  },
+  {
+    "question": "Set an alarm for 7am tomorrow",
+    "functions": [
+      {"name": "set_alarm", "description": "Set an alarm", "parameters": {"time": "string", "label": "string"}},
+      {"name": "set_timer", "description": "Set a countdown timer", "parameters": {"duration": "string"}}
+    ],
+    "answer": "{\"name\": \"set_alarm\", \"arguments\": {\"time\": \"7am tomorrow\"}}",
+    "category": "utility"
+  },
+  {
+    "question": "Translate 'Hello, how are you?' to Spanish",
+    "functions": [
+      {"name": "translate_text", "description": "Translate text to another language", "parameters": {"text": "string", "target_language": "string"}},
+      {"name": "detect_language", "description": "Detect the language of text", "parameters": {"text": "string"}}
+    ],
+    "answer": "{\"name\": \"translate_text\", \"arguments\": {\"text\": \"Hello, how are you?\", \"target_language\": \"Spanish\"}}",
+    "category": "language"
+  },
+  {
+    "question": "Calculate the tip for a $85 bill at 18%",
+    "functions": [
+      {"name": "calculate_tip", "description": "Calculate tip amount", "parameters": {"bill_amount": "number", "tip_percentage": "number"}},
+      {"name": "split_bill", "description": "Split a bill among people", "parameters": {"total": "number", "num_people": "integer"}}
+    ],
+    "answer": "{\"name\": \"calculate_tip\", \"arguments\": {\"bill_amount\": 85, \"tip_percentage\": 18}}",
+    "category": "utility"
+  },
+  {
+    "question": "Find the nearest gas station",
+    "functions": [
+      {"name": "search_nearby", "description": "Search for nearby places", "parameters": {"type": "string", "radius": "number"}},
+      {"name": "get_directions", "description": "Get directions to a destination", "parameters": {"destination": "string"}}
+    ],
+    "answer": "{\"name\": \"search_nearby\", \"arguments\": {\"type\": \"gas station\"}}",
+    "category": "navigation"
+  },
+  {
+    "question": "Get the stock price of Apple",
+    "functions": [
+      {"name": "get_stock_price", "description": "Get current stock price", "parameters": {"symbol": "string"}},
+      {"name": "get_stock_history", "description": "Get historical stock data", "parameters": {"symbol": "string", "period": "string"}}
+    ],
+    "answer": "{\"name\": \"get_stock_price\", \"arguments\": {\"symbol\": \"AAPL\"}}",
+    "category": "finance"
+  },
+  {
+    "question": "Add milk and eggs to my shopping list",
+    "functions": [
+      {"name": "add_to_list", "description": "Add items to a list", "parameters": {"list_name": "string", "items": "array"}},
+      {"name": "create_list", "description": "Create a new list", "parameters": {"name": "string"}}
+    ],
+    "answer": "{\"name\": \"add_to_list\", \"arguments\": {\"list_name\": \"shopping\", \"items\": [\"milk\", \"eggs\"]}}",
+    "category": "productivity"
+  },
+  {
+    "question": "What time is it in Tokyo?",
+    "functions": [
+      {"name": "get_time_in_timezone", "description": "Get current time in a timezone", "parameters": {"timezone": "string"}},
+      {"name": "convert_time", "description": "Convert time between timezones", "parameters": {"time": "string", "from_tz": "string", "to_tz": "string"}}
+    ],
+    "answer": "{\"name\": \"get_time_in_timezone\", \"arguments\": {\"timezone\": \"Asia/Tokyo\"}}",
+    "category": "utility"
+  },
+  {
+    "question": "Schedule a meeting with the marketing team for Friday at 2pm",
+    "functions": [
+      {"name": "create_calendar_event", "description": "Create a calendar event", "parameters": {"title": "string", "datetime": "string", "attendees": "array"}},
+      {"name": "send_meeting_invite", "description": "Send meeting invitation", "parameters": {"recipients": "array", "subject": "string"}}
+    ],
+    "answer": "{\"name\": \"create_calendar_event\", \"arguments\": {\"title\": \"Marketing Team Meeting\", \"datetime\": \"Friday 2pm\", \"attendees\": [\"marketing team\"]}}",
+    "category": "calendar"
+  }
+]
