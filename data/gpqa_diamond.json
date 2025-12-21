@@ -1,0 +1,107 @@
+[
+  {
+    "question": "Consider a quantum harmonic oscillator in its ground state. If we suddenly double the spring constant, what is the probability that the system remains in the new ground state?",
+    "options": ["1/2", "(2/3)^(1/2)", "2^(-1/2)", "(8/9)^(1/4)"],
+    "answer": "D",
+    "correct_answer_text": "(8/9)^(1/4)",
+    "domain": "physics"
+  },
+  {
+    "question": "In the context of general relativity, what is the Schwarzschild radius of a black hole with mass M?",
+    "options": ["GM/c^2", "2GM/c^2", "GM/2c^2", "4GM/c^2"],
+    "answer": "B",
+    "correct_answer_text": "2GM/c^2",
+    "domain": "physics"
+  },
+  {
+    "question": "A chemist is attempting to synthesize a natural product with 4 stereocenters. Using classical synthesis without any stereocontrol, what fraction of the product mixture would be the desired stereoisomer?",
+    "options": ["1/2", "1/4", "1/8", "1/16"],
+    "answer": "D",
+    "correct_answer_text": "1/16",
+    "domain": "chemistry"
+  },
+  {
+    "question": "In molecular orbital theory, what is the bond order of the diatomic species O2^2-?",
+    "options": ["0", "1", "2", "3"],
+    "answer": "B",
+    "correct_answer_text": "1",
+    "domain": "chemistry"
+  },
+  {
+    "question": "What is the maximum theoretical efficiency of a Carnot engine operating between reservoirs at 500K and 300K?",
+    "options": ["20%", "40%", "60%", "80%"],
+    "answer": "B",
+    "correct_answer_text": "40%",
+    "domain": "physics"
+  },
+  {
+    "question": "In biochemistry, what is the net ATP yield from the complete oxidation of one molecule of glucose via glycolysis, the citric acid cycle, and oxidative phosphorylation?",
+    "options": ["2 ATP", "4 ATP", "30-32 ATP", "36-38 ATP"],
+    "answer": "C",
+    "correct_answer_text": "30-32 ATP",
+    "domain": "biology"
+  },
+  {
+    "question": "Consider the reaction mechanism: A + B -> C (fast equilibrium), C + D -> E (slow). What is the rate law for this reaction?",
+    "options": ["rate = k[A][B]", "rate = k[C][D]", "rate = k[A][B][D]/[C]", "rate = k[A][B][D]"],
+    "answer": "D",
+    "correct_answer_text": "rate = k[A][B][D]",
+    "domain": "chemistry"
+  },
+  {
+    "question": "In quantum electrodynamics, what is the fine structure constant approximately equal to?",
+    "options": ["1/137", "1/100", "1/10", "1/1000"],
+    "answer": "A",
+    "correct_answer_text": "1/137",
+    "domain": "physics"
+  },
+  {
+    "question": "What is the predominant mechanism of heat transfer in the convective zone of the Sun?",
+    "options": ["Radiation", "Conduction", "Convection", "Nuclear fusion"],
+    "answer": "C",
+    "correct_answer_text": "Convection",
+    "domain": "physics"
+  },
+  {
+    "question": "In organic chemistry, what is the major product when 2-butene reacts with HBr in the presence of peroxides?",
+    "options": ["2-bromobutane", "1-bromobutane", "2-bromo-2-methylpropane", "1-bromo-2-methylpropane"],
+    "answer": "A",
+    "correct_answer_text": "2-bromobutane",
+    "domain": "chemistry"
+  },
+  {
+    "question": "What is the approximate half-life of carbon-14 used in radiocarbon dating?",
+    "options": ["5,730 years", "1,000 years", "10,000 years", "50,000 years"],
+    "answer": "A",
+    "correct_answer_text": "5,730 years",
+    "domain": "physics"
+  },
+  {
+    "question": "In molecular genetics, what is the role of the Shine-Dalgarno sequence?",
+    "options": ["Termination of transcription", "Initiation of translation in prokaryotes", "Splicing of pre-mRNA", "DNA replication origin"],
+    "answer": "B",
+    "correct_answer_text": "Initiation of translation in prokaryotes",
+    "domain": "biology"
+  },
+  {
+    "question": "What is the hybridization of xenon in XeF4?",
+    "options": ["sp3", "sp3d", "sp3d2", "sp2"],
+    "answer": "C",
+    "correct_answer_text": "sp3d2",
+    "domain": "chemistry"
+  },
+  {
+    "question": "In statistical mechanics, what is the partition function for a system of N non-interacting harmonic oscillators at temperature T?",
+    "options": ["(1/(1-e^(-hv/kT)))^N", "[e^(-hv/2kT)/(1-e^(-hv/kT))]^N", "(kT/hv)^N", "N*e^(-hv/kT)"],
+    "answer": "B",
+    "correct_answer_text": "[e^(-hv/2kT)/(1-e^(-hv/kT))]^N",
+    "domain": "physics"
+  },
+  {
+    "question": "What enzyme is responsible for adding telomeric repeats to chromosome ends?",
+    "options": ["DNA polymerase", "RNA polymerase", "Telomerase", "Helicase"],
+    "answer": "C",
+    "correct_answer_text": "Telomerase",
+    "domain": "biology"
+  }
+]

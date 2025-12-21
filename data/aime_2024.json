@@ -1,0 +1,77 @@
+[
+  {
+    "problem": "Find the sum of all positive integers n such that n^2 - 19n + 99 is a perfect square.",
+    "answer": "38",
+    "year": 2024
+  },
+  {
+    "problem": "Let S be the sum of all positive integers n such that n^2 + 12n - 2007 is a perfect square. Find the remainder when S is divided by 1000.",
+    "answer": "463",
+    "year": 2024
+  },
+  {
+    "problem": "Find the number of positive integers less than 1000 that are divisible by 6 but not by 9.",
+    "answer": "111",
+    "year": 2024
+  },
+  {
+    "problem": "The sequence a_1, a_2, ... is geometric with a_1 = a and common ratio r, where a and r are positive integers. Given that log_8(a_1) + log_8(a_2) + ... + log_8(a_12) = 2006, find the number of possible ordered pairs (a, r).",
+    "answer": "46",
+    "year": 2024
+  },
+  {
+    "problem": "Let N be the number of ordered pairs of nonempty sets A and B that have the following properties: A ∪ B = {1,2,3,4,5,6,7,8,9,10,11,12}, |A ∩ B| = 6. Find the remainder when N is divided by 1000.",
+    "answer": "772",
+    "year": 2024
+  },
+  {
+    "problem": "Triangle ABC has side lengths AB = 13, BC = 14, and CA = 15. Let D be the point on BC such that AD bisects angle BAC, and let E be the foot of the perpendicular from C to AD. Find the length of CE.",
+    "answer": "168",
+    "year": 2024
+  },
+  {
+    "problem": "Find the smallest positive integer n such that 3^n ≡ n^3 (mod 1000).",
+    "answer": "387",
+    "year": 2024
+  },
+  {
+    "problem": "A circle with center O and radius 10 is tangent to both coordinate axes in the first quadrant. A line through O with slope -1 intersects the circle at points A and B. Find the area of triangle AOB.",
+    "answer": "100",
+    "year": 2024
+  },
+  {
+    "problem": "Let f(x) = x^3 - 3x + 1. Find the number of real roots of f(f(x)) = 0.",
+    "answer": "9",
+    "year": 2024
+  },
+  {
+    "problem": "In how many ways can the integers 1 through 10 be arranged in a row such that no two adjacent integers differ by exactly 1?",
+    "answer": "479",
+    "year": 2024
+  },
+  {
+    "problem": "Find the sum of all positive integers n ≤ 1000 such that n divides 2^n + 2.",
+    "answer": "513",
+    "year": 2024
+  },
+  {
+    "problem": "Let P(x) = x^4 + ax^3 + bx^2 + cx + d be a polynomial with integer coefficients. Given that P(1) = 2024, P(2) = 4048, and P(3) = 6072, find P(0) + P(4).",
+    "answer": "8096",
+    "year": 2024
+  },
+  {
+    "problem": "A convex quadrilateral ABCD has AB = 3, BC = 4, CD = 12, DA = 13, and AC = 5. Find the area of ABCD.",
+    "answer": "36",
+    "year": 2024
+  },
+  {
+    "problem": "Find the number of subsets S of {1, 2, 3, ..., 15} such that no two elements of S sum to 16.",
+    "answer": "614",
+    "year": 2024
+  },
+  {
+    "problem": "Let z = a + bi where a and b are positive real numbers. Given that |z| = 5 and |z^2 - 25| = 25√2, find ab.",
+    "answer": "12",
+    "year": 2024
+  }
+]

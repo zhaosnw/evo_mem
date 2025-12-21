@@ -1,0 +1,22 @@
+[
+  {"goal": "Put a hot apple in the fridge.", "type": "cool"},
+  {"goal": "Put a clean mug in the cabinet.", "type": "clean"},
+  {"goal": "Heat the plate and put it on the countertop.", "type": "heat"},
+  {"goal": "Pick up the knife from the drawer.", "type": "pick"},
+  {"goal": "Put the cooled tomato in the microwave.", "type": "put"},
+  {"goal": "Clean the pan and put it on the stove.", "type": "clean"},
+  {"goal": "Put a hot mug on the table.", "type": "heat"},
+  {"goal": "Cool the apple and put it in the bowl.", "type": "cool"},
+  {"goal": "Pick up the book from the shelf.", "type": "pick"},
+  {"goal": "Put the cleaned plate in the cabinet.", "type": "clean"},
+  {"goal": "Heat the soup and put it on the dining table.", "type": "heat"},
+  {"goal": "Pick up the remote from the couch.", "type": "pick"},
+  {"goal": "Cool the water bottle and put it in the refrigerator.", "type": "cool"},
+  {"goal": "Clean the fork and place it in the drawer.", "type": "clean"},
+  {"goal": "Put a heated pizza slice on a plate.", "type": "heat"},
+  {"goal": "Pick up the newspaper from the floor.", "type": "pick"},
+  {"goal": "Clean the glass and put it in the cupboard.", "type": "clean"},
+  {"goal": "Heat the leftovers and put them on the counter.", "type": "heat"},
+  {"goal": "Cool the soda can and put it on the table.", "type": "cool"},
+  {"goal": "Pick up the keys from the hook.", "type": "pick"}
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "question": "A company is considering investing in a new project that requires an initial investment of $100,000. The project is expected to generate cash flows of $30,000 per year for 5 years. If the company's cost of capital is 10%, what is the Net Present Value (NPV) of the project?",
+    "options": ["$13,724", "$10,000", "$50,000", "-$13,724", "$113,724"],
+    "answer": "A",
+    "answer_index": 0,
+    "category": "economics"
+  },
+  {
+    "question": "In the context of thermodynamics, which statement best describes the Second Law?",
+    "options": ["Energy can neither be created nor destroyed", "The entropy of an isolated system never decreases", "For every action, there is an equal and opposite reaction", "The total energy of an isolated system is constant", "Heat flows from cold to hot bodies spontaneously"],
+    "answer": "B",
+    "answer_index": 1,
+    "category": "physics"
+  },
+  {
+    "question": "What is the time complexity of the quicksort algorithm in the worst case?",
+    "options": ["O(n)", "O(n log n)", "O(n^2)", "O(log n)", "O(2^n)"],
+    "answer": "C",
+    "answer_index": 2,
+    "category": "computer_science"
+  },
+  {
+    "question": "Which philosopher is most associated with the concept of the 'categorical imperative'?",
+    "options": ["Aristotle", "John Stuart Mill", "Immanuel Kant", "Friedrich Nietzsche", "David Hume"],
+    "answer": "C",
+    "answer_index": 2,
+    "category": "philosophy"
+  },
+  {
+    "question": "In structural engineering, what is the primary purpose of a moment-resisting frame?",
+    "options": ["To reduce material costs", "To resist lateral loads through rigid beam-column connections", "To support only vertical loads", "To increase building height", "To reduce construction time"],
+    "answer": "B",
+    "answer_index": 1,
+    "category": "engineering"
+  },
+  {
+    "question": "What is the derivative of f(x) = e^(x^2)?",
+    "options": ["e^(x^2)", "2xe^(x^2)", "x^2e^(x^2)", "2e^(x^2)", "e^(2x)"],
+    "answer": "B",
+    "answer_index": 1,
+    "category": "math"
+  },
+  {
+    "question": "In organic chemistry, what type of reaction is the conversion of an alcohol to an alkene using concentrated sulfuric acid?",
+    "options": ["Substitution", "Addition", "Elimination", "Rearrangement", "Oxidation"],
+    "answer": "C",
+    "answer_index": 2,
+    "category": "chemistry"
+  },
+  {
+    "question": "Which of the following best describes the role of ATP synthase in cellular respiration?",
+    "options": ["It breaks down glucose", "It produces ATP using a proton gradient", "It transports electrons", "It produces NADH", "It converts pyruvate to acetyl-CoA"],
+    "answer": "B",
+    "answer_index": 1,
+    "category": "biology"
+  },
+  {
+    "question": "What is the purpose of the 'volatile' keyword in Java?",
+    "options": ["To make a variable constant", "To ensure visibility of changes across threads", "To improve performance", "To prevent garbage collection", "To enable serialization"],
+    "answer": "B",
+    "answer_index": 1,
+    "category": "computer_science"
+  },
+  {
+    "question": "In macroeconomics, what is the Phillips Curve primarily used to illustrate?",
+    "options": ["The relationship between GDP and unemployment", "The trade-off between inflation and unemployment", "The relationship between interest rates and investment", "The effect of taxes on consumption", "The relationship between imports and exports"],
+    "answer": "B",
+    "answer_index": 1,
+    "category": "economics"
+  },
+  {
+    "question": "According to Plato's theory of Forms, what is the relationship between physical objects and their Forms?",
+    "options": ["Physical objects are superior to Forms", "Physical objects are imperfect copies of eternal Forms", "Forms are derived from physical objects", "There is no relationship between them", "Forms and physical objects are identical"],
+    "answer": "B",
+    "answer_index": 1,
+    "category": "philosophy"
+  },
+  {
+    "question": "In signal processing, what is the Nyquist frequency?",
+    "options": ["The minimum frequency that can be sampled", "Half the sampling rate", "Twice the sampling rate", "The average frequency of a signal", "The frequency at which aliasing begins"],
+    "answer": "B",
+    "answer_index": 1,
+    "category": "engineering"
+  },
+  {
+    "question": "What is the integral of 1/(1+x^2) dx?",
+    "options": ["ln(1+x^2) + C", "arctan(x) + C", "1/(2(1+x^2)) + C", "arcsin(x) + C", "-1/(1+x^2) + C"],
+    "answer": "B",
+    "answer_index": 1,
+    "category": "math"
+  },
+  {
+    "question": "In quantum mechanics, what does the Heisenberg Uncertainty Principle state?",
+    "options": ["Energy is quantized", "Light has wave-particle duality", "Position and momentum cannot both be precisely known simultaneously", "Electrons orbit in fixed shells", "Matter can be created from energy"],
+    "answer": "C",
+    "answer_index": 2,
+    "category": "physics"
+  },
+  {
+    "question": "What is the hybridization of the central carbon atom in ethene (C2H4)?",
+    "options": ["sp", "sp2", "sp3", "sp3d", "sp3d2"],
+    "answer": "B",
+    "answer_index": 1,
+    "category": "chemistry"
+  },
+  {
+    "question": "In genetics, what is the function of a promoter region?",
+    "options": ["To terminate transcription", "To initiate transcription by providing a binding site for RNA polymerase", "To translate mRNA into protein", "To replicate DNA", "To repair damaged DNA"],
+    "answer": "B",
+    "answer_index": 1,
+    "category": "biology"
+  },
+  {
+    "question": "What design pattern is characterized by ensuring a class has only one instance and provides a global point of access to it?",
+    "options": ["Factory", "Observer", "Singleton", "Strategy", "Decorator"],
+    "answer": "C",
+    "answer_index": 2,
+    "category": "computer_science"
+  },
+  {
+    "question": "In microeconomics, what happens to consumer surplus when a price ceiling is set below the equilibrium price?",
+    "options": ["It increases for all consumers", "It may increase for some consumers but creates shortage", "It always decreases", "It remains unchanged", "It is eliminated entirely"],
+    "answer": "B",
+    "answer_index": 1,
+    "category": "economics"
+  },
+  {
+    "question": "Which beam configuration produces the maximum bending moment at midspan for a simply supported beam with a uniformly distributed load?",
+    "options": ["wL^2/2", "wL^2/4", "wL^2/8", "wL^2/12", "wL^2/16"],
+    "answer": "C",
+    "answer_index": 2,
+    "category": "engineering"
+  },
+  {
+    "question": "What is Nietzsche's concept of 'eternal recurrence'?",
+    "options": ["The belief in reincarnation", "The idea that all events will repeat infinitely in the same sequence", "The cyclical nature of history", "The immortality of the soul", "The persistence of memory"],
+    "answer": "B",
+    "answer_index": 1,
+    "category": "philosophy"
+  }
+]
